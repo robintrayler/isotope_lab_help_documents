@@ -40,15 +40,15 @@ If the carbon and nitrogen content of a material is known prior to analysis you 
 
 ## δ^13^C Range
 
-$$Sample~size_{minimum} = 0.2 \div (sample~carbon \% \div 100)$$
+$$Sample~size_{min} = 0.2 \div (sample~carbon \% \div 100)$$
 
-$$Sample~size_{maximum} = 0.8 \div (sample~carbon \% \div 100)$$
+$$Sample~size_{max} = 0.8 \div (sample~carbon \% \div 100)$$
 
 ## δ^15^N Range
 
-$$Sample~size_{minimum} = 0.05 \div (sample~nitrogen \% \div 100)$$
+$$Sample~size_{min} = 0.05 \div (sample~nitrogen \% \div 100)$$
 
-$$Sample~size_{maximum} = 0.2 \div (sample~nitrogen \% \div 100)$$
+$$Sample~size_{max} = 0.2 \div (sample~nitrogen \% \div 100)$$
 
 ## Measuring both δ^13^C and δ^15^N
 
@@ -56,31 +56,35 @@ It is difficult to concurrently measure δ^13^C and δ^15^N in samples with high
 
 If your samples have a C:N ratio between about 1 to 16 then δ^13^C and δ^15^N can be measured concurrently. Calculate the range of acceptable sample sizes using the equations for carbon and nitrogen shown above and then choose a final sample size that overlaps both results. If your samples have a C:N ratio significantly outside this range then δ^13^C and δ^15^N may need to be measured separately. Please consult the Technical Director for guidance.
 
-+++
-
-# Worked Example
-Acetanilide is common reference material that is 71.09% carbon and 10.36% nitrogen.
-
-## δ^13^C
-$$sample~size_{minimum} = 0.28~mg = 0.2 \div (71.09 \% \div 100)$$
-$$sample~size_{maximum} = 1.13~mg = 0.8 \div (71.09 \% \div 100)$$
-
-## δ^15^N
-$$Sample~size_{minimum} = 0.48~mg = 0.05 \div (10.36 \% \div 100)$$
-$$Sample~size_{maximum} = 1.93~mg = 0.2 \div (10.36 \% \div 100)$$
-
-In this case the minimum sample size for δ^13^C measurements is lower than the minimum for measuring δ^15^N. the minimum sample size for δ^15^N analysis is in the middle of the range for δ^13^C so a sample size of **0.5 mg** would be appropriate.
-
-+++
-
-# Carbon and Nitrogen Content of Commonly Analyzed Materials
+# Commonly Analyzed Materials
 
 |   material    |     carbon %    |    nitrogen %   |
 |:-------------:|:---------------:|:---------------:|
-| collagen      |       ~45       |       ~15       |
+| acetanilide   |      71.09      |      10.36      |
+| biochar       |      > 80       |    < 1.5        |
+| collagen      |     40 - 45     |     10 - 15     |
+| glutamic acid |      40.3       |      9.52       |
+| keratin       |     40 - 45     |     10 - 15     |
 | plants        |     40 - 50     |    < 1 - 5      |
 | soil          | highly variable | highly variable |
-| keratin       |                 |                 |
-| acetanilide   |      71.09      |     10.36       |
-| glutamic acid |      40.3       |      9.52       |
+[Table 2. Carbon and nitrogen contents of commonly analyzed materials.][table_2]
+
++++
+
+# Worked Example
+Acetanilide is common reference material that is 71.09% carbon and 10.36% nitrogen ([Table 2][table_2]).
+
+## δ^13^C
+$$sample~size_{min} = 0.28~mg = 0.2 \div (71.09 \% \div 100)$$
+$$sample~size_{max} = 1.13~mg = 0.8 \div (71.09 \% \div 100)$$
+
+## δ^15^N
+$$Sample~size_{min} = 0.48~mg = 0.05 \div (10.36 \% \div 100)$$
+$$Sample~size_{max} = 1.93~mg = 0.2 \div (10.36 \% \div 100)$$
+
+In this case the minimum sample size for δ^13^C measurements is lower than the minimum for measuring δ^15^N. the minimum sample size for δ^15^N analysis is in the middle of the range for δ^13^C so a sample size of **0.5 mg** would be appropriate.
+
+
+
+
 
