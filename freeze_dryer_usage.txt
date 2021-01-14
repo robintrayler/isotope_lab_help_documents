@@ -12,4 +12,8 @@ The freeze dryer is used to dry or *lyophilize* materials. This removes water an
 # Turning on the Freeze Dryer
 1. Flip the main power switch on the left side of the freeze dryer.
 	* The freeze dryer should beep once and the screen will go through a short boot-up sequence.
-2. 
+2. Make sure the 12-port drying chamber is seated and all ports are closed. 
+	* Each nob has a beveled edge that indicates the orientation of the valve. 
+
+
+Make sure the 
