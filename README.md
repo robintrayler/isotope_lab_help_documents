@@ -1,1 +1,2 @@
 # Introduction
+This repository contains a variety of how-to documents for the Stable Isotope Ecology lab at UC Merced. Much of the information here is probably applicable to labs with similar setups but please consult your lab director before following these instructions anywhere besides UC Merced. 
