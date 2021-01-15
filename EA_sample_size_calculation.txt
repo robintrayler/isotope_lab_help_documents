@@ -21,7 +21,7 @@ The signal intensity of a sample gas measured by a *Delta V+ isotope ratio mass 
 
 The *Delta V+ isotope ratio mass spectrometer* has a measurement range from 0 to 50 volts. However the sensitivity is best below about 30 volts. Furthermore, both δ^13^C and δ^15^N have have a non-linear relationship to signal intensity. This means that a sample with a small signal intensity will have a different measured δ value than a sample of the same material at a large signal intensity. 
 
-![Figure 2. Mass linearity of δ^13^C and δ^15^N values.](./figures/sample_size/linearity.jpeg)  
+![Figure 2. Mass dependence of δ^13^C and δ^15^N values.](./figures/sample_size/linearity.jpeg)  
 
 The δ-value-mass-dependence is linear and lowest between about 5 to 15 volts for δ^13^C and 5 to 25 for δ^15^N (Figure 2). Since the relationship between signal intensity (volts) is linearly related to carbon and nitrogen content (Figure 1), this equates to the mass range shown in [Table 1][table_1]
 
@@ -66,6 +66,7 @@ If your samples have a C:N ratio between about 1 to 16 then δ^13^C and δ^15^N 
 | glutamic acid |      40.3       |      9.52       |
 | keratin       |     40 - 45     |     10 - 15     |
 | plants        |     40 - 50     |    < 1 - 5      |
+| proteins      |     40 - 45     |     10 - 15     |
 | soil          | highly variable | highly variable |
 [Table 2. Carbon and nitrogen contents of commonly analyzed materials.][table_2]
 
