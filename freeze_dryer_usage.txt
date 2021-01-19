@@ -9,11 +9,18 @@ Please contact the Stable Isotope Ecology Laboratory Technical Director with any
 # Introduction
 The freeze dryer is used to dry or *lyophilize* materials. This removes water and makes samples easier to grind and weigh for stable isotope analysis. Samples are frozen and exposed to low pressure inside the freeze dryer which causes water to sublimate or transition directly from a solid to a gas. The *LABCONCO Freeze Zone 4.5 Plus* is easy to use. However, improper use can damage the freeze drier or vacuum pump.
 
+# Using the Freeze Dryer
+When using the freeze dryer, your samples must be frozen solid prior to use.
+
 # Turning on the Freeze Dryer
+The freeze dryer should be turned on and left to warm up for about 20 - 30 minutes before use. 
 1. Flip the main power switch on the left side of the freeze dryer.
 	* The freeze dryer should beep once and the screen will go through a short boot-up sequence.
-2. Make sure the 12-port drying chamber is seated and all ports are closed. 
-	* Each nob has a beveled edge that indicates the orientation of the valve. 
+2. Make sure the 12-port drying chamber is seated  on top of the freeze dryer.
+	*there should be no visible gaps between the drying chamber and any of the rubber gaskets. 
+3. Make sure all of ports are closed. 
+	* Each nob has a beveled edge that indicates the orientation of the valve. If the beveled edge is pointing towards the valve inlet then the valve is open. If the beveled edge is pointing to either the left, right, or top of the valve then the valve is closed. 
+3. 
 
 
 Make sure the 
