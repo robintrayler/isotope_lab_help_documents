@@ -7,11 +7,7 @@ geometry: margin=1in
 fontsize: 12pt
 tblPrefix: Table
 figPrefix: Figure
-header-includes:
-    - \usepackage{setspace}
-    - \doublespacing
-    - \usepackage{lineno}
-    - \linenumbers
+indent: true
 ---
 
 ***
@@ -22,10 +18,15 @@ Please contact the Stable Isotope Ecology Laboratory Technical Director with any
 
 # Introduction
 Determining the correct sample size for δ^13^C and δ^15^N analyses is important because the mass spectrometer signal intensity, sensitivity, and reproducibility is related to sample mass. These notes make three assumptions.
-1. The the carbon and nitrogen content of a material is known prior to analysis. 
+
+1. The the carbon and nitrogen content of a material is known prior to analysis.
+
 2. Analysis is taking place in the University of California, Merced Stable Isotope Ecology laboratory using a *Costech 4010 Elemental Analyzer*. 
-	* Other laboratories have similar instrumentation setups, however instrument sensitivity will vary between configurations.  
+
+	* Other laboratories have similar instrumentation setups, however instrument sensitivity will vary between configurations.
+
 3. The *Delta V+ IRMS* CO~2~ sample dilution is set to 89%.
+
 	* This is the default configuration for routine analyses. Other configurations are possible but you should contact the Technical Director prior to sample preparation.
 
 # Background
@@ -62,25 +63,11 @@ $$Sample~size_{min} = 0.05 \div (sample~nitrogen \% \div 100)$$
 
 $$Sample~size_{max} = 0.2 \div (sample~nitrogen \% \div 100)$$
 
-## Measuring both δ^13^C and δ^15^N
+# Measuring both δ^13^C and δ^15^N
 
 It is difficult to concurrently measure δ^13^C and δ^15^N in samples with high C:N ratios. Based on the sample ranges given in @tbl:ranges the maximum C:N ratio is about 16 ($carbon~maximum \div nitrogen~minimum$ or $0.8 \div 0.05$) and the minimum C:N ratio is 1 ($carbon~minimum \div nitrogen~maximum$ or $0.2 \div 0.2$). For analyses of materials with C:N ratios outside this range please consult the Technical Director prior to sample preparation.
 
 If your samples have a C:N ratio between about 1 to 16 then δ^13^C and δ^15^N can be measured concurrently. Calculate the range of acceptable sample sizes using the equations for carbon and nitrogen shown above and then choose a final sample size that overlaps both results. If your samples have a C:N ratio significantly outside this range then δ^13^C and δ^15^N may need to be measured separately. Please consult the Technical Director for guidance.
-
-# Commonly Analyzed Materials
-
-|   material    |     carbon %    |    nitrogen %   |
-|:-------------:|:---------------:|:---------------:|
-| acetanilide   |      71.09      |      10.36      |
-| biochar       |      > 80       |    < 1.5        |
-| collagen      |     40 - 45     |     10 - 15     |
-| glutamic acid |      40.3       |      9.52       |
-| keratin       |     40 - 45     |     10 - 15     |
-| plants        |     40 - 50     |    < 1 - 5      |
-| proteins      |     40 - 45     |     10 - 15     |
-| soil          | highly variable | highly variable |
-Table: Carbon and nitrogen contents of commonly analyzed materials. {#tbl:common}
 
 # Worked Example
 Acetanilide is common reference material that is 71.09% carbon and 10.36% nitrogen (@tbl:common).
@@ -95,6 +82,19 @@ $$Sample~size_{max} = 1.93~mg = 0.2 \div (10.36 \% \div 100)$$
 
 In this case the minimum sample size for δ^13^C measurements is lower than the minimum for measuring δ^15^N. the minimum sample size for δ^15^N analysis is in the middle of the range for δ^13^C so a sample size of **0.5 mg** would be appropriate.
 
+# Commonly Analyzed Materials
+
+|   material    |     carbon %    |    nitrogen %   |
+|:-------------:|:---------------:|:---------------:|
+| acetanilide   |      71.09      |      10.36      |
+| biochar       |      > 80       |    < 1.5        |
+| collagen      |     40 - 45     |     10 - 15     |
+| glutamic acid |      40.3       |      9.52       |
+| keratin       |     40 - 45     |     10 - 15     |
+| plants        |     40 - 50     |    < 1 - 5      |
+| proteins      |     40 - 45     |     10 - 15     |
+| soil          | highly variable | highly variable |
+Table: Carbon and nitrogen contents of commonly analyzed materials. {#tbl:common}
 
 
 
