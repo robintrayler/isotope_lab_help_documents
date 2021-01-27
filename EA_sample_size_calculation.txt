@@ -1,4 +1,18 @@
-# Costech 4010 Elemental Analyzer Sample Size Determination v0.2
+---
+title: Costech 4010 Elemental Analyzer Sample Size Determination v0.2
+author: Robin B. Trayler
+pdf-engine: xelatex
+mainfont: Helvetica
+geometry: margin=1in
+fontsize: 12pt
+tblPrefix: Table
+figPrefix: Figure
+header-includes:
+    - \usepackage{setspace}
+    - \doublespacing
+    - \usepackage{lineno}
+    - \linenumbers
+---
 
 ***
 
@@ -15,24 +29,22 @@ Determining the correct sample size for δ^13^C and δ^15^N analyses is importan
 	* This is the default configuration for routine analyses. Other configurations are possible but you should contact the Technical Director prior to sample preparation.
 
 # Background
-The signal intensity of a sample gas measured by a *Delta V+ isotope ratio mass spectrometer* is directly related to the about of gas. In the case of the *Costech 4010 Elemental Analyzer* the signal intensity is linearly related to sample mass (Figure 1).
+The signal intensity of a sample gas measured by a *Delta V+ isotope ratio mass spectrometer* is directly related to the about of gas. In the case of the *Costech 4010 Elemental Analyzer* the signal intensity is linearly related to sample mass (@fig:intensity).
 
-![Figure 1. Sample carbon and nitrogen content versus signal intensity.](./figures/sample_size/amp_mass.jpeg)
+![Sample carbon and nitrogen content versus signal intensity.](./figures/sample_size/amp_mass.jpeg){#fig:intensity}
 
 The *Delta V+ isotope ratio mass spectrometer* has a measurement range from 0 to 50 volts. However the sensitivity is best below about 30 volts. Furthermore, both δ^13^C and δ^15^N have have a non-linear relationship to signal intensity. This means that a sample with a small signal intensity will have a different measured δ value than a sample of the same material at a large signal intensity. 
 
-![Figure 2. Mass dependence of δ^13^C and δ^15^N values.](./figures/sample_size/linearity.jpeg)  
+![Mass dependence of δ^13^C and δ^15^N values.](./figures/sample_size/linearity.jpeg){#fig:linearity}
 
-The δ-value-mass-dependence is linear and lowest between about 5 to 15 volts for δ^13^C and 5 to 25 for δ^15^N (Figure 2). Since the relationship between signal intensity (volts) is linearly related to carbon and nitrogen content (Figure 1), this equates to the mass range shown in [Table 1][table_1]
+The δ-value-mass-dependence is linear and lowest between about 5 to 15 volts for δ^13^C and 5 to 25 for δ^15^N (@fig:linearity). Since the relationship between signal intensity (volts) is linearly related to carbon and nitrogen content (@fig:intensity), this equates to the mass range shown in @tbl:ranges.
 
-+++
 
 |     isotope     | minimum (mg) | maximum (mg)  |
 |:---------------:|:------------:|:-------------:|
 |      δ^13^C     |      0.2     |      0.8      |
 |      δ^15^N     |      0.05    |      0.2      |
-[Table 1. minimum and maximum carbon and nitrogen contents for δ^13^C and δ^15^N analysis][table_1]
-
+: minimum and maximum carbon and nitrogen contents for δ^13^C and δ^15^N analysis {#tbl:ranges}
 
 # Calculating Sample Size
 
@@ -52,7 +64,7 @@ $$Sample~size_{max} = 0.2 \div (sample~nitrogen \% \div 100)$$
 
 ## Measuring both δ^13^C and δ^15^N
 
-It is difficult to concurrently measure δ^13^C and δ^15^N in samples with high C:N ratios. Based on the sample ranges given in the [table][table_1] above the maximum C:N ratio is about 16 ($carbon~maximum \div nitrogen~minimum$ or $0.8 \div 0.05$) and the minimum C:N ratio is 1 ($carbon~minimum \div nitrogen~maximum$ or $0.2 \div 0.2$). For analyses of materials with C:N ratios outside this range please consult the Technical Director prior to sample preparation.
+It is difficult to concurrently measure δ^13^C and δ^15^N in samples with high C:N ratios. Based on the sample ranges given in @tbl:ranges the maximum C:N ratio is about 16 ($carbon~maximum \div nitrogen~minimum$ or $0.8 \div 0.05$) and the minimum C:N ratio is 1 ($carbon~minimum \div nitrogen~maximum$ or $0.2 \div 0.2$). For analyses of materials with C:N ratios outside this range please consult the Technical Director prior to sample preparation.
 
 If your samples have a C:N ratio between about 1 to 16 then δ^13^C and δ^15^N can be measured concurrently. Calculate the range of acceptable sample sizes using the equations for carbon and nitrogen shown above and then choose a final sample size that overlaps both results. If your samples have a C:N ratio significantly outside this range then δ^13^C and δ^15^N may need to be measured separately. Please consult the Technical Director for guidance.
 
@@ -68,12 +80,10 @@ If your samples have a C:N ratio between about 1 to 16 then δ^13^C and δ^15^N 
 | plants        |     40 - 50     |    < 1 - 5      |
 | proteins      |     40 - 45     |     10 - 15     |
 | soil          | highly variable | highly variable |
-[Table 2. Carbon and nitrogen contents of commonly analyzed materials.][table_2]
-
-+++
+Table: Carbon and nitrogen contents of commonly analyzed materials. {#tbl:common}
 
 # Worked Example
-Acetanilide is common reference material that is 71.09% carbon and 10.36% nitrogen ([Table 2][table_2]).
+Acetanilide is common reference material that is 71.09% carbon and 10.36% nitrogen (@tbl:common).
 
 ## δ^13^C
 $$sample~size_{min} = 0.28~mg = 0.2 \div (71.09 \% \div 100)$$
