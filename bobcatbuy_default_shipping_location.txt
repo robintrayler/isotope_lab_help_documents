@@ -1,0 +1,35 @@
+
+---
+title: Changing the Default Shipping Location in Bobcat Buy
+author: Robin B. Trayler
+pdf-engine: xelatex
+mainfont: Helvetica
+geometry: margin=1in
+fontsize: 12pt
+tblPrefix: Table
+figPrefix: Figure
+indent: true
+---
+
+***
+
+# Steps
+1. From the Oracle Cloud main screen select `Purchase Requisitions` (@fig:fig1). 
+2. From the requisitions page select `more tasks` and choose `Update Requisition Preferences` from the dropdown menu (@fig:fig2). 
+3. Click the search button next to the field labeled `Deliver-to Location` (@fig:fig3). 
+4. Click the `Advanced` button (@fig:fig4).
+5. Under the `name` and `code` fields select `is not blank` and click `Search` (@fig:fig5). 
+6. From the search results click on the row for the location you want to be your default. For deliveries to the Main UC Merced campus select `UC Merced Central Receiving` (@fig:fig6). Click `OK` to close the search results window and `Save and Close` to close the Edit Requisition Preferences window. The default Search location should now be set. 
+
+# Figures
+![Main page.](./figures/bobcatbuy/figure_1.jpg){#fig:fig1}
+
+![Requisitions page.](./figures/bobcatbuy/figure_2.jpg){#fig:fig2}
+
+![Requisition Preferences popup.](./figures/bobcatbuy/figure_3.jpg){#fig:fig3}
+
+![Search popup.](./figures/bobcatbuy/figure_4.jpg){#fig:fig4}
+
+![Advanced search options](./figures/bobcatbuy/figure_5.jpg){#fig:fig5}
+
+![Deliver-to location search results.](./figures/bobcatbuy/figure_6.jpg){#fig:fig6}
