@@ -94,7 +94,7 @@ In this case the minimum sample size for δ^13^C measurements is lower than the 
 | plants        |     40 - 50     |    < 1 - 5      |
 | proteins      |     40 - 45     |     10 - 15     |
 | soil          | highly variable | highly variable |
-Table: Carbon and nitrogen contents of commonly analyzed materials. {#tbl:common}
+: Carbon and nitrogen contents of commonly analyzed materials. {#tbl:common}
 
 
 
