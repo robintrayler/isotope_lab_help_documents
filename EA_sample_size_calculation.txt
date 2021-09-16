@@ -30,7 +30,7 @@ Determining the correct sample size for δ^13^C and δ^15^N analyses is importan
 	* This is the default configuration for routine analyses. Other configurations are possible but you should contact the Technical Director prior to sample preparation.
 
 # Background
-The signal intensity of a sample gas measured by a *Delta V+ isotope ratio mass spectrometer* is directly related to the about of gas. In the case of the *Costech 4010 Elemental Analyzer* the signal intensity is linearly related to sample mass (@fig:intensity).
+The signal intensity of a sample gas measured by a *Delta V+ isotope ratio mass spectrometer* is directly related to the amount of sample gas. In the case of the *Costech 4010 Elemental Analyzer* the signal intensity is linearly related to sample carbon and nitrogen content (@fig:intensity).
 
 ![Sample carbon and nitrogen content versus signal intensity.](./figures/sample_size/amp_mass.jpeg){#fig:intensity}
 
