@@ -84,16 +84,16 @@ In this case the minimum sample size for δ^13^C measurements is lower than the 
 
 # Commonly Analyzed Materials
 
-|   material    |     carbon %    |    nitrogen %   |
-|:-------------:|:---------------:|:---------------:|
-| acetanilide   |      71.09      |      10.36      |
-| biochar       |      > 80       |    < 1.5        |
-| collagen      |     40 - 45     |     10 - 15     |
-| glutamic acid |      40.3       |      9.52       |
-| keratin       |     40 - 45     |     10 - 15     |
-| plants        |     40 - 50     |    < 1 - 5      |
-| proteins      |     40 - 45     |     10 - 15     |
-| soil          | highly variable | highly variable |
+|   material    |     carbon %    |    nitrogen %   | target weight (mg) |
+|:-------------:|:---------------:|:---------------:|:------------------:|
+| acetanilide   |      71.09      |      10.36      |        0.4         |
+| biochar       |      > 80       |    < 1.5        |      variable      |
+| collagen      |     40 - 45     |     10 - 15     |        0.5         |
+| glutamic acid |      40.3       |      9.52       |        0.5         |
+| keratin       |     40 - 45     |     10 - 15     |        0.5         |
+| plants        |     40 - 50     |    < 1 - 5      |       1 - 1.5      |
+| proteins      |     40 - 45     |     10 - 15     |        0.5         |
+| soil          | highly variable | highly variable |   highly variable  |
 : Carbon and nitrogen contents of commonly analyzed materials. {#tbl:common}
 
 
